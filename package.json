@@ -1,0 +1,30 @@
+{
+  "name": "apnic-test",
+  "version": "0.2.0",
+  "description": "APNIC Test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/import.js && node ./src/index.js",
+    "dev": "nodemon ./src/index.js --legacy-watch"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "author": "Sharif Corbic <sharif.corbic@live.com.au>",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "helmet": "^3.1.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.4",
+    "mongoose": "^4.7.0",
+    "node-libcurl": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
