@@ -16,7 +16,7 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "helmet": "^3.1.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.20",
     "moment": "^2.19.4",
     "mongoose": "^4.7.0",
     "node-libcurl": "^1.2.0"
