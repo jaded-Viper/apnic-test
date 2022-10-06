@@ -1,0 +1,43 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - node-libcurl > debug:
+        patched: '2022-10-06T16:10:24.375Z'
+    - node-libcurl > node-pre-gyp > tar-pack > debug:
+        patched: '2022-10-06T16:10:24.375Z'
+  'npm:extend:20180424':
+    - node-libcurl > node-gyp > request > extend:
+        patched: '2022-10-06T16:10:24.375Z'
+    - node-libcurl > node-pre-gyp > request > extend:
+        patched: '2022-10-06T16:10:24.375Z'
+  'npm:hoek:20180212':
+    - node-libcurl > node-pre-gyp > request > hawk > hoek:
+        patched: '2022-10-06T16:10:24.375Z'
+    - node-libcurl > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2022-10-06T16:10:24.375Z'
+    - node-libcurl > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2022-10-06T16:10:24.375Z'
+    - node-libcurl > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-06T16:10:24.375Z'
+    - node-libcurl > node-gyp > request > hawk > hoek:
+        patched: '2022-10-06T16:10:24.375Z'
+    - node-libcurl > node-gyp > request > hawk > boom > hoek:
+        patched: '2022-10-06T16:10:24.375Z'
+    - node-libcurl > node-gyp > request > hawk > sntp > hoek:
+        patched: '2022-10-06T16:10:24.375Z'
+    - node-libcurl > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-06T16:10:24.375Z'
+  SNYK-JS-LODASH-567746:
+    - mongoose > async > lodash:
+        patched: '2022-10-06T16:10:24.375Z'
+  'npm:stringstream:20180511':
+    - node-libcurl > node-gyp > request > stringstream:
+        patched: '2022-10-06T16:10:24.375Z'
+    - node-libcurl > node-pre-gyp > request > stringstream:
+        patched: '2022-10-06T16:10:24.375Z'
+  'npm:tough-cookie:20170905':
+    - node-libcurl > node-pre-gyp > request > tough-cookie:
+        patched: '2022-10-06T16:10:24.375Z'
