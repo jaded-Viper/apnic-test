@@ -19,7 +19,7 @@
     "lodash": "^4.17.4",
     "moment": "^2.19.4",
     "mongoose": "^4.7.0",
-    "node-libcurl": "^1.2.0"
+    "node-libcurl": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^3.11.1",
